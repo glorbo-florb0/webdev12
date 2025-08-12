@@ -1,0 +1,32 @@
+{
+  "name": "equinox-tanks-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Equinox Tanks application",
+  "license": "ISC",
+  "author": "offsenive_coder",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-admin": "node createAdmin.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "f": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "1.4.5-lts.1",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "path-to-regexp": "^6.3.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}
